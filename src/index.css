@@ -18,9 +18,7 @@
     * {
             @apply  font-sans m-0 p-0
         }
-        .main{
-            @apply  w-full h-full 
-        }
+       
     h1 {
         @apply text-3xl font-bold 
     }
