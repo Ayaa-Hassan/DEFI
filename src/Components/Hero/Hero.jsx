@@ -1,11 +1,19 @@
 import React from 'react'
+import hero from '../../assets/video.mp4';
 
 
 
 export default function Hero() {
     return <>
         <div className=" w-full h-[100vh] top-[90px]">
-       
+            <video
+                className=' object-cover h-svh w-full fixed top-[50px]  -z-10 '
+                src={hero}
+                autoPlay
+                loop
+                muted
+
+            />
             <div className=" w-full    h-[90%]  pt-16 flex flex-col px-4 justify-center items-center text-white">
                 <h1 className=''> Decentralized</h1>
                 <h2 className='text-3xl font-bold py-2'> <span className='text-[#00d8ff]'>Trading</span> Protocol </h2>
